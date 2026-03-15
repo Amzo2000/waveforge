@@ -1,20 +1,36 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# WaveForge
 
-# Run and deploy your AI Studio app
+Advanced audio waveform React component with playlist management, loop selection, zoom, and drag & drop support.
 
-This contains everything you need to run your app locally.
+## Demo
 
-View your app in AI Studio: https://ai.studio/apps/4a2a1d44-4703-4204-8038-8b94f2a0157d
+[Live Demo](https://waveforge.vercel.app)
 
-## Run Locally
+## Features
 
-**Prerequisites:**  Node.js
+- Drag & drop audio file upload
+- Playlist management
+- Waveform visualization with WaveSurfer.js
+- Play / Stop / Next / Previous
+- Loop on specific section
+- Volume control and mute
+- Forward / Backward 5 seconds
+- Zoom in / out
+- Timeline with timestamps
+- Dark UI with shadcn/ui
 
+## Tech Stack
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+React, TypeScript, WaveSurfer.js, shadcn/ui, Tailwind CSS
+
+## Getting Started
+```bash
+git clone https://github.com/amadou/waveforge
+cd waveforge
+npm install
+npm run dev
+```
+
+## License
+
+MIT
