@@ -1,0 +1,5 @@
+{
+  "name": "WaveForge",
+  "description": "FL Studio inspired audio waveform player with playlist and loop regions.",
+  "requestFramePermissions": []
+}
