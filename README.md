@@ -4,7 +4,7 @@ Advanced audio waveform React component with playlist management, loop selection
 
 ## Demo
 
-[Live Demo](https://waveforge.vercel.app)
+[Live Demo](https://waveforge-mu.vercel.app/)
 
 ## Features
 
